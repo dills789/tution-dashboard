@@ -1,0 +1,8 @@
+.site-header {
+    display: flex;
+    background-color: gray;
+    padding: 10px 20px;
+    justify-content: space-between;
+
+    align-items: center;
+}
