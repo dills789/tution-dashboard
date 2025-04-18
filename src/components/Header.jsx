@@ -6,19 +6,25 @@ function Header() {
       <div>
 <header className="site-header">
 
-{/* Child 1: Wrapper for the left side */}
+{/*1 - Main Logo */}
 <div>
   <h1>PS Tuitions</h1>
 </div>
 
-{/* Child 2: Wrapper for the right side (navigation) */}
-<nav> {/* Using <nav> is good practice for navigation links */}
-  <a href="#">Home</a>
-  <a href="#">Classes</a>
-  <a href="#">Contact Us</a>
-  <a href="#">Login</a>
-  {/* You might put these in a <ul> and <li> later for better structure */}
+{/*2 - Nav next to Main Logo */}
+<nav className="main-nav">
+    <ul>    
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Classes</a></li>
+        <li><a href="#">Contact Us</a></li>
+    </ul>
+
 </nav>
+
+{/*3 - Login Button on the Right */}
+<div className="login-area">
+    <a href="#">Login</a>
+</div>
 
 </header>
     </div>

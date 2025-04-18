@@ -1,8 +1,43 @@
 .site-header {
     display: flex;
-    background-color: gray;
+    background-color: rgb(97, 97, 97);
     padding: 10px 20px;
-    justify-content: space-between;
-
+    justify-content: flex-start;
     align-items: center;
+    gap: 4rem;
+}
+
+.main-nav a {
+    padding: 0px 15px;
+    display: inline-flex;
+    align-items: center;
+    height: 100%;
+}
+
+.main-nav a:hover {
+    background-color: aliceblue;
+}
+
+.main-nav ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.login-area {
+    margin-left: auto;
+}
+
+.login-area a {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 15px;
+    height: 100%;
+
+}
+
+.login-area a:hover {
+    background-color: aliceblue;
 }
